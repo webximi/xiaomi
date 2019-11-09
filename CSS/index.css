@@ -1,0 +1,297 @@
+/* top 开始*/
+.top{
+	height: 40px;
+	background: #333333;
+}
+
+.top .content {
+	height: 40px;
+	/*background: pink;*/
+}
+
+.top .content li{
+	float: left;
+}
+
+.top .content li a{
+	display: inline-block;
+	color: #ffffff;
+	padding-right: 6px;
+	padding-left: 6px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.line::before{
+	content: "";
+	width: 1px;
+	height: 12px;
+	display: inline-block;
+	background: #999;
+	position: relative;
+	right: 0;
+	top: 2px;
+}
+
+/* nav 开始 */
+.nav {
+	/*background: pink;*/
+	margin-top: 20px;
+}
+
+.nav .logo {
+	width: 55px;
+	height: 55px;
+	background: url(../images/logo.png);
+	margin-top: 4px;
+
+}
+
+
+.nav .logo1 {
+	width: 163px;
+	height: 66px;
+	background: url(../images/logo1.gif);
+	margin-left: 14px; 
+}
+
+.nav ul{
+	margin-left: 15px;
+}
+
+.nav  ul li{
+	float: left;
+	margin-right: 25px;
+}
+
+.nav ul li a{
+	display: inline-block;
+	height: 66px;
+	line-height: 66px;
+	font-size: 14px;
+	color: #000;
+	/*background: yellow;*/
+}
+
+
+/* banner */
+.banner {
+	height: 460px;
+	background: pink;
+	margin-top: 15px;
+
+}
+
+.banner .left {
+	width: 235px;
+	height: 460px;
+	/*background: yellow;*/
+	background: #2c505f;
+}
+
+.banner .right {
+	width: 991px;
+	height: 460px;
+	background: url(../images/banner.png);
+}
+
+
+.banner .left ul {
+	margin-top: 20px;
+
+}
+
+.banner .left ul li a{
+	display: block;
+	height: 43px;
+	line-height: 43px;
+	font-size: 14px;
+	color: #fff;
+	padding-left: 28px;
+	background: url(../images/jiantou.png) no-repeat 202px center;
+}
+
+/* ad */
+.ad{
+	margin-top: 14px;
+	/*background: pink;*/
+}
+
+.ad .box1,
+.ad .box2,
+.ad .box3 {
+	margin-right:13px; 
+}
+
+
+.ad .box1 {
+	width: 234px; 
+	height: 170px;
+	background:#5f5750;
+}
+
+.ad .box1 p {
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+}
+
+.ad .box1 p:first-child {
+	margin-top: 55px;
+	margin-bottom: 22px;
+}
+
+.ad .box2 {
+	width: 317px; 
+	height: 170px;
+	/*background: red;*/
+}
+
+.ad .box2 img{
+	width: 317px;
+	height: 170px;
+}
+
+.ad .box3 {
+	width: 317px; 
+	height: 170px;
+	/*background: yellow;*/
+}
+
+.ad .box3 img{
+	width: 317px;
+	height: 170px;
+}
+
+.ad .box4 {
+	width: 317px; 
+	height: 170px;
+	/*background: blue;*/
+}
+
+.ad .box4 img{
+	width: 317px;
+	height: 170px;
+}
+
+/* links */
+.links {
+	/*background: pink;*/
+	margin-top: 90px;
+}
+
+.links .left dl {
+	width: 160px;
+	float: left;
+}
+
+.links .left dl dt {
+	height: 44px;
+	font-size: 14px;
+	color: #000;
+}
+
+.links .left dl dd {
+	height: 29px;
+	color: #999;
+}
+
+.links .right {
+	width: 250px;
+	height: 112px;
+	border-left: 1px solid #ccc;
+	/*background: red;*/
+	float: right;
+}
+
+.links .right p {
+	text-align: center;
+}
+
+.links .right p:nth-child(1) {
+	font-size: 18px;
+	color: #ff6700;
+}
+
+.links .right p:nth-child(2) {
+	margin-top: 12px;
+	margin-bottom: 5px;
+}
+
+
+/* footer */
+.footer {
+	height: 155px;
+	background: #fafafa;
+	margin-top: 24px;
+
+}
+
+.footer .content {
+	height: 155px;
+	/*background: pink;*/
+}
+
+.footer .content .left {
+	width: 55px;
+	height: 55px;
+	background: url(../images/logo.png);
+}
+
+.footer .content .right {
+	margin-left: 10px;
+	/*background: yellow;*/
+}
+
+.footer .content li {
+	float: left;
+}
+
+.footer .content li:first-child a{
+
+	padding-left: 0;
+}
+
+
+.footer .content li a {
+
+	display: inline-block;
+	padding-left: 6px;
+	padding-right: 6px;
+	/*height: 40px;*/
+	/*line-height: 40px;*/
+}
+
+.footer .bottom {
+	margin-bottom: 28px;
+	margin-top: 30px;
+	/*background: red;*/
+}
+
+.line::after {
+	
+	content: '';
+	width: 1px;
+	height: 12px;
+	display: inline-block;
+	background: #666;
+
+	/*相对定位 */
+	position: relative;
+	left: 0;
+	top: 2px;
+
+}
+
+.footer .b_footer  {
+	width: 267px;
+	height: 19px;
+	background: url(../images/slogan2016.png);
+	margin:0 auto;
+}
+
+
+
+body{
+	height: 2000px;
+}
